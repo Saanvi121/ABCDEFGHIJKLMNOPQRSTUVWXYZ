@@ -1,0 +1,72 @@
+body
+{
+  color: rgb(0, 0, 0);
+  background-repeat: no-repeat;
+  background-position:center;
+  background-size: cover;
+  background-image: url("bg.jpg");
+
+}
+span
+{
+  font-size: 30px;
+}
+#camera , #result
+{
+  border: 2px dashed black;
+  width: 350px;
+  height: 300px;
+  border-style: dashed;
+}
+#result_emotion_name ,#result_emotion_name2  
+{
+  color: black;
+}
+.emotion_name
+{
+  font-size: 40px;
+}
+.emoji
+{
+  font-size:48px;
+}
+
+.heading
+{
+  font-size:x-large;
+  border-radius: 10px;
+  width: 400px;
+  box-shadow: -8px 8px 10px turquoise;
+}
+
+label
+{
+  background-color: whitesmoke;
+  color: darkmagenta;
+  border-radius: 7px;
+  padding: 5px;
+}
+
+#contain
+{
+  background-repeat: no-repeat;
+  background-position:center;
+  background-size: cover;
+  background-image: url("emoji_bg.jpg");
+}
+
+#result_photo
+{
+  width: 350px;
+  height: 300px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#emoji_prediction1{
+  font-size:xx-large;
+}
+
+#emoji_prediction2{
+  font-size:xx-large;
+}
